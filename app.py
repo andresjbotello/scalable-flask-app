@@ -1,3 +1,8 @@
+import os
+import logging
+import api
+from models import db
+import config
 from flask import Flask
 
 logging.basicConfig(level=logging.DEBUG,
